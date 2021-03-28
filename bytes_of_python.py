@@ -1,0 +1,17 @@
+age = 20
+name = "Tannu"
+print("{name} was {age} years old when she got married".format(name=name,age=age))
+print('{} was {} years old when she got married'.format(name,age))
+print('{0} was {1} years old when she got married'.format(name,age))
+print('Python 3.6 has following way to print string')
+print(f'{name} was {age} years old when she got married')
+print('{0:.2f}'.format(1.0/5))
+print('{0:_^11}'.format('hello'))
+print('{book} is written by {name}'.format(book='DS',name='Karumanchi'))
+print('a', end='')
+print('b', end='')
+print('c', end=' ')
+print('d', end=' ')
+print('e')
+print('What\'s your name')
+print("What's  your name")
